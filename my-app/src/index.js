@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './App.css';
 import reportWebVitals from './reportWebVitals';
-
 import NotificationList from './Ch06/NotificationList';
 import Hello from './Ch03/Hello';
 import Library from './Ch03/Library';
@@ -28,13 +28,16 @@ import AttendanceBook from './Ch10/AttendanceBook';
 import NameForm from './Ch11/NameForm';
 import FruitSelect from './Ch11/FruitSelect';
 import Reservation from './Ch11/Reservation';
-
+import Calcuator from './Ch12/Calculator';
+import ProfileCard from './Ch13/ProfileCard';
+import DarkOrLight from './Ch14/DarkOrLight';
+import Blocks from './Ch15/Blocks';
 // const numbers = [1,2,3,4,5];
 
 
     const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(
-    <SignUp/>
+    <Blocks/>
 
 );
 
